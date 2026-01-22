@@ -88,7 +88,7 @@ def testapi():
 		response = requests.post('https://backend.robogarden.ca/en/user/card', headers=headers, data=data)
 		if 'Payment information updated successfully' in response.text:
 			return jsonify({
-			"By" : "@PR7N"
+			"By" : "@PR7N",
 	        "success": True,
 	        "Response":"Payment Method Added Successfully.",
 	        "Payment gateway": "STRIPE AUTHE"
