@@ -1,5 +1,5 @@
 import requests
-proxy = "http://4d44d4c0d8b976ee3ce3:4cb3cf7f43755bf5@go.proxycove.com:10000"
+proxy = "http://rvvcdzdv-rotate:izc9l0vvhgro@p.webshare.io:80"
 proxies = {
     "http": proxy,
     "https": proxy
